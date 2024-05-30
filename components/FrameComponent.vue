@@ -52,6 +52,7 @@ function closeFrame() {
     .iframe {
         width: 90vw;
         max-width: 600px;
+        max-height: 80vh;
         height: 600px;
     }
 </style>

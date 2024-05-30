@@ -27,7 +27,7 @@ function closeFrame() {
         </div>
 
         <ClientOnly>
-            <q-card v-if="frameOpened === true" class="relative m-6 mt-3">
+            <q-card v-if="frameOpened === true" class="relative mt-3">
                 <div class="flex justify-end border-b-2 border-gray">
                     <q-btn icon="close" color="primary" @click="closeFrame()" />
                 </div>
@@ -40,10 +40,18 @@ function closeFrame() {
                     />
                 </div>
 
-                <iframe :src="frameURL" width="600" height="600" @load="frameLoaded = true">
+                <iframe :src="frameURL" class="iframe" @load="frameLoaded = true">
                     Ваш браузер не поддерживает плавающие фреймы!
                 </iframe>
             </q-card>
         </ClientOnly>
     </div>
 </template>
+
+<style scoped>
+    .iframe {
+        width: 90vw;
+        max-width: 600px;
+        height: 600px;
+    }
+</style>

@@ -113,7 +113,7 @@ onMounted(() => {
                 Адрес кошелька:
             </h3>
 
-            <p class="text-lg mb-4">
+            <p class="text-lg mb-4 break-all">
                 {{ address }}
             </p>
 
@@ -125,7 +125,7 @@ onMounted(() => {
                 Баланс:
             </h3>
 
-            <p class="text-lg">
+            <p class="text-lg break-all">
                 {{ etherBalance }}
             </p>
         </div>

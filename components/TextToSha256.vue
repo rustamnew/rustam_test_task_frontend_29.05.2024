@@ -24,7 +24,7 @@ function hashString() {
             <h4 class="text-lg mb-2">
                 SHA256:
             </h4>
-            <p class="text-lg">
+            <p class="text-lg break-all">
                 {{ hash }}
             </p>
         </div>

@@ -43,7 +43,7 @@ function decryptData() {
                 <h4 class="text-lg mb-2">
                     Зашифрованный текст:
                 </h4>
-                <p class="text-lg">
+                <p class="text-lg break-all">
                     {{ cryptedText }}
                 </p>
             </div>
@@ -62,7 +62,7 @@ function decryptData() {
                 <h4 class="text-lg mb-2">
                     Расшифрованный текст:
                 </h4>
-                <p class="text-lg">
+                <p class="text-lg break-all">
                     {{ decryptedText }}
                 </p>
             </div>

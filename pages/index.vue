@@ -11,5 +11,6 @@ definePageMeta({
 <template>
     <MetamaskWallet />
     <FrameComponent />
-    <ToSha256 />
+    <TextToSha256 />
+    <AesCrypt />
 </template>
